@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_seminar/screens/sample_state_ful.dart';
+import 'package:flutter_seminar/screens/sample_flag.dart';
 
 void main() {
   runApp(const MainApp());
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff005d00)),
         useMaterial3: true
       ),
-      home: const SampleStateful()
+      home: const SampleFlag()
     );
   }
 }
