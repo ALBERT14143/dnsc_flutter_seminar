@@ -11,7 +11,6 @@ class SampleFlag extends StatelessWidget{
         child: Container(
           color: Colors.white,
           height: 300,
-          width: double.infinity,
           child: Column(
             children: [
               Flexible(
